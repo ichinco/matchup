@@ -4,6 +4,8 @@ import org.apache.commons.lang.builder.HashCodeBuilder
 
 class UserRole implements Serializable {
 
+    Date lastUpdated;
+    Date dateCreated;
 	User user
 	Role role
 
