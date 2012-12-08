@@ -2,4 +2,4 @@ target/*
 out/*
 .project
 .classpath
-*.iml
+*.iws
