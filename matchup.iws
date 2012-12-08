@@ -1,7 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e66d84c-d2e2-4bf8-9555-0a59addcf31a" name="Default" comment="" />
+    <list default="true" id="1e66d84c-d2e2-4bf8-9555-0a59addcf31a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/external/backbone-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/external/less-1.3.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-app/js/external/underscore-min.js" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\BootStrap$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\BootStrap$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\BootStrap.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\BuildConfig$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\BuildConfig$_run_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\BuildConfig$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\BuildConfig$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\BuildConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\Config$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\Config$_run_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\Config$_run_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\Config$_run_closure1_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\Config$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\Config.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure3_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure3_closure4_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure3_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure3_closure5_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure3_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource$_run_closure3_closure6_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\DataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\HibernateGrailsPlugin$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\HibernateGrailsPlugin$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\HibernateGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_addControllerMethods_closure19.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_addControllerMethods_closure20.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_addControllerMethods_closure21.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure10_closure63.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure10_closure64.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure10_closure65.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure10_closure66.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure11_closure67.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure11_closure68.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure11_closure69.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure11_closure70.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure11_closure71.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure12_closure72.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure13_closure73.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure74.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure75.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure76.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure77.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure78.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure79.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure80.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure81.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure14_closure82.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure15.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure15_closure83.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure16_closure84.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure16_closure85.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure16_closure86.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure16_closure87.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure16_closure88.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure16_closure89.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure16_closure90.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure17.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure17_closure91.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure17_closure92.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure17_closure93.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure18.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure18_closure94.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure18_closure95.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure1_closure24.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure1_closure24_closure27.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure1_closure25.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure1_closure25_closure28.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure1_closure26.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure1_closure26_closure29.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure30.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure31.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure32.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure33.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure34.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure35.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure36.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure37.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure38.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure39.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure40.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure41.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure42.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure43.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure44.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure45.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure46.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure47.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure48.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure49.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure50.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure51.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure52.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure2_closure53.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure4_closure54.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure4_closure55.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure4_closure55_closure56.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure7_closure57.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure8_closure58.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure8_closure59.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure9_closure60.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure9_closure61.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_closure9_closure62.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_createBeanList_closure22.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin$_findFilterChainNames_closure23.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\SpringSecurityCoreGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\TomcatGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\UrlMappings$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\UrlMappings$__clinit__closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\UrlMappings$__clinit__closure1_closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\UrlMappings.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure2_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure2_closure8_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure3_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure4_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure5_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure5_closure12_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure6_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin$_closure1_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\WebxmlGrailsPlugin.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\application.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\resources$_run_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\denise\Code\matchup\target\classes\resources.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matchup.iws" afterPath="$PROJECT_DIR$/matchup.iws" />
+    </list>
     <ignored path="matchup.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
@@ -65,7 +217,7 @@
           <file leaf-file-name="Competition.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/Competition.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="27" selection-start="215" selection-end="215" vertical-scroll-proportion="-8.130435">
+                <state line="11" column="27" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -80,28 +232,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="BootStrap.groovy" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="create_competition.gsp" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/views/competitionAdmin/create_competition.gsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="33" selection-start="379" selection-end="379" vertical-scroll-proportion="-5.5510206">
+                <state line="16" column="33" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="CompetitionController.groovy" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="CompetitionController.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/matchup/CompetitionController.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="51" selection-start="523" selection-end="523" vertical-scroll-proportion="0.7452229">
+                <state line="22" column="58" selection-start="663" selection-end="663" vertical-scroll-proportion="-4.4347825">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="resources.groovy" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -109,20 +261,20 @@
           </file>
           <file leaf-file-name="spring-security-core.properties" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/.grails/1.3.7/projects/matchup/plugins/spring-security-core-1.2.7.3/grails-app/i18n/spring-security-core.properties">
-              <provider editor-type-id="ResourceBundle">
-                <state />
-              </provider>
               <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="0" selection-start="162" selection-end="198" vertical-scroll-proportion="-2.55">
+                <state line="3" column="0" selection-start="162" selection-end="198" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
+              </provider>
+              <provider editor-type-id="ResourceBundle">
+                <state />
               </provider>
             </entry>
           </file>
           <file leaf-file-name="LoginController.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="93" column="0" selection-start="2839" selection-end="2839" vertical-scroll-proportion="-56.217392">
+                <state line="93" column="0" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -131,36 +283,27 @@
           <file leaf-file-name="CompetitionMatch.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/CompetitionMatch.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="46" selection-start="123" selection-end="123" vertical-scroll-proportion="-0.7906977">
+                <state line="4" column="46" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
-              </provider>
-              <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-                <state />
               </provider>
             </entry>
           </file>
           <file leaf-file-name="CompetitionTeam.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/CompetitionTeam.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="45" selection-start="122" selection-end="122" vertical-scroll-proportion="-1.5813954">
+                <state line="4" column="45" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
-              </provider>
-              <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-                <state />
               </provider>
             </entry>
           </file>
           <file leaf-file-name="RequestMap.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/RequestMap.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.60465115">
+                <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
-              </provider>
-              <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-                <state />
               </provider>
             </entry>
           </file>
@@ -168,15 +311,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Competition.groovy" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Competition.groovy" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/Competition.groovy">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
                   <folding />
                 </state>
               </provider>
-              <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-                <state />
+            </entry>
+          </file>
+          <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3634362">
+                  <folding />
+                </state>
               </provider>
             </entry>
           </file>
@@ -245,8 +394,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Favorites" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,15 +425,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
+              <option name="myItemId" value="web-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,29 +439,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
+              <option name="myItemId" value="web-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="competitions" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -348,130 +472,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="competitionAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matchup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -495,7 +495,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -512,9 +511,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Grails.Grails:matchup">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -680,26 +679,26 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3119777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3119777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39838493" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20143884" sideWeight="0.60027856" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20143884" sideWeight="0.68802226" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -744,99 +743,111 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/java/com/matchup/competitions/Race.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/Match.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.372093">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="90" selection-end="90" vertical-scroll-proportion="-2.372093" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="20" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.1627908">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="20" selection-start="123" selection-end="123" vertical-scroll-proportion="-3.1627908" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/MatchParticipant.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.5813954">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="123" selection-end="123" vertical-scroll-proportion="-1.5813954" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/TeamUser.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="115" selection-end="115" vertical-scroll-proportion="-1.5813954">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="115" selection-end="115" vertical-scroll-proportion="-1.5813954" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/UserRole.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="161" selection-end="161" vertical-scroll-proportion="-2.7674417">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="161" selection-end="161" vertical-scroll-proportion="-2.7674417" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/RequestMap.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.60465115">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
+        <state line="10" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/CompetitionTeam.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/competitionAdmin/create_competition.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="122" selection-end="122" vertical-scroll-proportion="-1.5813954">
+        <state line="16" column="33" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/CompetitionMatch.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="46" selection-start="123" selection-end="123" vertical-scroll-proportion="-0.7906977">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.grails/1.3.7/projects/matchup/plugins/spring-security-core-1.2.7.3/grails-app/i18n/spring-security-core.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="162" selection-end="198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="162" selection-end="198" vertical-scroll-proportion="-2.55">
+        <state line="93" column="0" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/CompetitionMatch.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/CompetitionTeam.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="45" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/RequestMap.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/Competition.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -848,40 +859,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/LoginController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="2839" selection-end="2839" vertical-scroll-proportion="-56.217392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/matchup/Competition.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="215" selection-end="215" vertical-scroll-proportion="-8.130435">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/competitionAdmin/create_competition.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="379" selection-end="379" vertical-scroll-proportion="-5.5510206">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/matchup/CompetitionController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="523" selection-end="523" vertical-scroll-proportion="0.7452229">
+        <state line="22" column="58" selection-start="663" selection-end="663" vertical-scroll-proportion="-4.4347825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/spring/resources.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -894,7 +881,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="5987499" />
-              <option name="pluginDependenciesCrc" value="-75041644" />
+              <option name="pluginDependenciesCrc" value="-1785525600" />
               <option name="properties">
                 <map>
                   <entry key="grails.project.class.dir" value="target/classes" />
