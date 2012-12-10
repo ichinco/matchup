@@ -1,7 +1,5 @@
 package com.matchup
 
-import com.matchup.competitions.CompetitionType
-
 class Competition {
 
     int id;

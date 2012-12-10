@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Welcome to Grails</title>
+        <r:require module="app" />
         <meta name="layout" content="main" />
         <style type="text/css" media="screen">
 
