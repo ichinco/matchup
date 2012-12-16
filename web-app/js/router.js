@@ -12,17 +12,23 @@ Competitions.Router = Backbone.Router.extend({
 
     main: function() {
 
+        var competitionModel = new Matchup.Collection.CompetitionList({
+
+        });
+
         var competitionView = new Matchup.Views.CompetitionView({
-            el : '#competition-list'
+            el : '#competition-list',
+            model : competitionModel
         });
 
         var competitionDialog = new Matchup.Views.AddCompetitionDialog({
-            el : '#new-competition-dialog'
+            el : '#new-competition-dialog',
+            model : competitionModel
         });
 
         var newCompetitionButton = new Matchup.Views.AddCompetitionButton({
             el : '#new-competition',
-            dialog : competitionDialog
+            model : competitionModel
         });
     }
 });

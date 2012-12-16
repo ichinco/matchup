@@ -11,26 +11,38 @@ Matchup.Views.CompetitionView = Backbone.View.extend({
 
     initialize: function() {
         _.bindAll(this);
-//        this.model.bind('fetched', this.render);
+        this.model.bind('fetched', this.render);
     }
 
 });
 
-Matchup.Views.AddCompetitionButton = Backbone.View.extend({
-    dialog : null,
+Matchup.Views.AddCompetitionDialog = Backbone.View.extend({
 
+    events: {
+        'click .create-competition': 'close'
+    },
+
+    initialize : function() {
+        _.bindAll(this);
+        this.model.bind('new-competition-dialog-open', this.show);
+    },
+
+    show: function() {
+        this.$el.show();
+    },
+
+    close : function (){
+        this.model.create(this.$el.serializeObject());
+        this.$el.hide();
+    }
+});
+
+Matchup.Views.AddCompetitionButton = Backbone.View.extend({
     events: {
         'click': 'onClick'
     },
 
     onClick: function() {
-        this.dialog.show();
-    }
-});
-
-Matchup.Views.AddCompetitionDialog = Backbone.View.extend({
-
-    show: function() {
-        this.$el.fadeIn();
+        this.model.trigger("new-competition-dialog-open");
     }
 });

@@ -13,14 +13,14 @@
     <meta name="layout" content="main" />
   </head>
   <body>
-    <div id="new-competition-dialog" class="stealth">
+    <form id="new-competition-dialog" class="stealth">
         <label for="name">name</label>
         <g:textField name="name" />
         <label for="description">description</label>
         <g:textArea name="description" rows="3" cols="100"/>
 
-        <button onclick="">create competition</button>
-    </div>
+        <button class='create-competition'>create competition</button>
+    </form>
 
     <div id="competition-list">
 
