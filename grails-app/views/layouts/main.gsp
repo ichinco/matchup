@@ -16,6 +16,7 @@
 
         <script type="text/template" id="competition_template">
             <div>
+                <div>competition</div>
                 <div><%=name%></div>
                 <div><%=description%></div>
             </div>

@@ -4,6 +4,7 @@ Matchup.Views = Matchup.Views || {};
 Matchup.Views.CompetitionView = Backbone.View.extend({
 
     template: _.template($("#competition_template").html()),
+
     render: function() {
         this.$el.html(this.template(this.model.toJSON()));
         return this;
@@ -12,6 +13,7 @@ Matchup.Views.CompetitionView = Backbone.View.extend({
     initialize: function() {
         _.bindAll(this);
         this.model.bind('fetched', this.render);
+        this.model.fetch();
     }
 
 });
@@ -32,7 +34,11 @@ Matchup.Views.AddCompetitionDialog = Backbone.View.extend({
     },
 
     close : function (){
-        this.model.create(this.$el.serializeObject());
+        console.log(this.model);
+        this.model.create({
+            name : this.$el.children('.name').first().val(),
+            description : this.$el.children('.description').first().val()
+        });
         this.$el.hide();
     }
 });

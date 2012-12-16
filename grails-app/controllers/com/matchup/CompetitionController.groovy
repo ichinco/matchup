@@ -2,7 +2,7 @@ package com.matchup
 
 class CompetitionController {
 
-    static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
+    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index = {
         redirect(action: "list", params: params)
@@ -16,6 +16,7 @@ class CompetitionController {
     def create = {
         def competitionInstance = new Competition()
         competitionInstance.properties = params
+        competitionInstance.save(flush: true)
         return [competitionInstance: competitionInstance]
     }
 
@@ -23,10 +24,10 @@ class CompetitionController {
         def competitionInstance = new Competition(params)
         if (competitionInstance.save(flush: true)) {
             flash.message = "${message(code: 'default.created.message', args: [message(code: 'competition.label', default: 'Competition'), competitionInstance.id])}"
-            redirect(action: "show", id: competitionInstance.id)
+            return [competitionInstance: competitionInstance]
         }
         else {
-            render(view: "create", model: [competitionInstance: competitionInstance])
+            redirect(action: "create", model: [competitionInstance: competitionInstance])
         }
     }
 

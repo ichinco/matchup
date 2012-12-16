@@ -2,7 +2,7 @@ class UrlMappings {
 
 	static mappings = {
 		"/$controller/$id?"(parseRequest:true){
-            action = [GET: "show", PUT: "update", DELETE: "delete", POST: "save"]
+            action = [GET: "show", PUT: "save", DELETE: "delete", POST: "save"]
 		}
 
 		"/$controller/list"(parseRequest:true){

@@ -10,6 +10,7 @@ class Competition {
     Date enrollmentEndDate;
 
     static constraints = {
+        enrollmentEndDate nullable:true
     }
 
     Set<Team> getTeams(){
