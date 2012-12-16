@@ -7,4 +7,5 @@ Matchup.Collection.CompetitionList = Backbone.Collection.extend({
         this.model = Matchup.Models.Competition;
         this.url = "competition/list"
     }
+
 });

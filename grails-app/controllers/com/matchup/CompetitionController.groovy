@@ -10,7 +10,10 @@ class CompetitionController {
 
     def list = {
         params.max = Math.min(params.max ? params.int('max') : 10, 100)
-        [competitionInstanceList: Competition.list(params), competitionInstanceTotal: Competition.count()]
+
+        render (contentType:'text/json'){
+            competitionInstanceList: Competition.list(params)
+        }
     }
 
     def create = {
@@ -24,7 +27,9 @@ class CompetitionController {
         def competitionInstance = new Competition(params)
         if (competitionInstance.save(flush: true)) {
             flash.message = "${message(code: 'default.created.message', args: [message(code: 'competition.label', default: 'Competition'), competitionInstance.id])}"
-            return [competitionInstance: competitionInstance]
+            render (contentType:'text/json'){
+                competition : competitionInstance
+            }
         }
         else {
             redirect(action: "create", model: [competitionInstance: competitionInstance])

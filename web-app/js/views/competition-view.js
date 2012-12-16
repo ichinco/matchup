@@ -6,14 +6,18 @@ Matchup.Views.CompetitionView = Backbone.View.extend({
     template: _.template($("#competition_template").html()),
 
     render: function() {
-        this.$el.html(this.template(this.model.toJSON()));
+        var template = _.template(this.template());
+        var finalHtml = "";
+        _.each(this.model.models, function (e){
+            finalHtml += (template(e));
+        });
+        this.$el.html(finalHtml);
         return this;
     },
 
     initialize: function() {
         _.bindAll(this);
-        this.model.bind('fetched', this.render);
-        this.model.fetch();
+        this.model.bind('all', this.render);
     }
 
 });

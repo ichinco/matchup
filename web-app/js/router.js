@@ -12,9 +12,7 @@ Competitions.Router = Backbone.Router.extend({
 
     main: function() {
 
-        var competitionModel = new Matchup.Collection.CompetitionList({
-
-        });
+        var competitionModel = new Matchup.Collection.CompetitionList();
 
         var competitionView = new Matchup.Views.CompetitionView({
             el : '#competition-list',
@@ -30,5 +28,7 @@ Competitions.Router = Backbone.Router.extend({
             el : '#new-competition',
             model : competitionModel
         });
+
+        competitionModel.fetch({remove : true, add : true, change : true});
     }
 });
