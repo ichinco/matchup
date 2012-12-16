@@ -5,5 +5,6 @@ Matchup.Collection.TeamList = Backbone.Collection.extend({
 
     initialize : function() {
         this.model = Matchup.Model.Team;
+        this.url = "/team/list"
     }
 });

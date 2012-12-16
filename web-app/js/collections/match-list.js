@@ -5,5 +5,6 @@ Matchup.Collection.CompetitionList = Backbone.Collection.extend({
 
     initialize : function() {
         this.model = Matchup.Model.Match;
+        this.url = "/match/list"
     }
 });

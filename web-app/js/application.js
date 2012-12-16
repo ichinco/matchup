@@ -11,3 +11,9 @@ if (Ajax && (Ajax != null)) {
 	  }
 	});
 }
+
+$(document).ready(function() {
+    var app = new Competitions.Router();
+//    Backbone.history.start();
+    app.init();
+});

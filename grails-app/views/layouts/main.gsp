@@ -13,6 +13,27 @@
             <img src="${resource(dir:'images',file:'spinner.gif')}" alt="${message(code:'spinner.alt',default:'Loading...')}" />
         </div>
         <div id="grailsLogo"><a href="http://grails.org"><img src="${resource(dir:'images',file:'grails_logo.png')}" alt="Grails" border="0" /></a></div>
+
+        <script type="text/template" id="competition_template">
+            <div>
+                <div><%=name%></div>
+                <div><%=description%></div>
+            </div>
+        </script>
+
+        <script type="text/template" id="team_template">
+            <div>
+                <div><%=name%></div>
+            </div>
+        </script>
+
+        <script type="text/template" id="match_template">
+            <div>
+                <div><%=name%></div>
+            </div>
+        </script>
+
+
         <g:layoutBody />
         <r:layoutResources />
     </body>
