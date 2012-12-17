@@ -29,6 +29,11 @@ $.fn.serializeObject = function()
    return o;
 };
 
+_.templateSettings = {
+    interpolate : /\{\{(.+?)\}\}/g,
+    evaluate : /\{!(.+?)!\}/g
+};
+
 $(document).ready(function() {
     var app = new Competitions.Router();
 //    Backbone.history.start();

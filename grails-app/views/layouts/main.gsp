@@ -17,20 +17,20 @@
         <script type="text/template" id="competition_template">
             <div>
                 <div>competition</div>
-                <div><%=competitinName%></div>
-                <div><%=description%></div>
+                <div>{{name}}</div>
+                <div>{{description}}</div>
             </div>
         </script>
 
         <script type="text/template" id="team_template">
             <div>
-                <div><%=teamName%></div>
+                <div>{{name}}</div>
             </div>
         </script>
 
         <script type="text/template" id="match_template">
             <div>
-                <div><%=name%></div>
+                <div>{{name}}</div>
             </div>
         </script>
 
