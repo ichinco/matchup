@@ -29,6 +29,11 @@ $.fn.serializeObject = function()
    return o;
 };
 
+_.templateSettings = {
+    interpolate : /\{\{(.+?)\}\}/g,
+    evaluate : /\{!(.+?)!\}/g
+};
+
 $(document).ready(function() {
     // change template settings so that we can use
     // it and it doesn't get torn apart by grails.
