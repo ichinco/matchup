@@ -30,6 +30,13 @@ $.fn.serializeObject = function()
 };
 
 $(document).ready(function() {
+    // change template settings so that we can use
+    // it and it doesn't get torn apart by grails.
+    _.templateSettings = {
+        interpolate : /\{\{(.+?)\}\}/g,
+        evaluate : /\{!(.+?)!\}/g
+    };
+
     var app = new Competitions.Router();
 //    Backbone.history.start();
     app.init();

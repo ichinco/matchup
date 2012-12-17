@@ -3,13 +3,16 @@ Matchup.Views = Matchup.Views || {};
 
 Matchup.Views.CompetitionView = Backbone.View.extend({
 
-    template: _.template($("#competition_template").html()),
+    _getTemplate: _.once(function() {
+        return _.template($("#competition_template").html());
+    }),
 
     render: function() {
-        var template = _.template(this.template());
+        var template = this._getTemplate();
         var finalHtml = "";
         _.each(this.model.models, function (e){
-            finalHtml += (template(e));
+            var attributes = e.attributes;
+            finalHtml += (template(attributes));
         });
         this.$el.html(finalHtml);
         return this;
